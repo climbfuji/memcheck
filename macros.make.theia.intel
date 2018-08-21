@@ -1,0 +1,10 @@
+# Settings for LIBRARY BUILD ONLY: theia.intel
+#
+RM         = rm -f
+AR         = ar
+ARFLAGS    = -ruv
+CPPFLAGS   = -DMPI -DOPENMP
+CC         = mpiicc
+CFLAGS     = -qopenmp
+FC         = mpiifort
+FFLAGS     = -qopenmp

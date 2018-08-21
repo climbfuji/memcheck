@@ -1,0 +1,3 @@
+exec_*.gnu
+exec_*.pgi
+exec_*.intel

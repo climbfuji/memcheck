@@ -1,0 +1,10 @@
+# Settings for LIBRARY BUILD ONLY: cheyenne.intel
+#
+RM         = rm -f
+AR         = ar
+ARFLAGS    = -ruv
+CPPFLAGS   = -DMPI -DOPENMP
+CC         = mpicc
+CFLAGS     = -qopenmp
+FC         = mpif90
+FFLAGS     = -qopenmp
