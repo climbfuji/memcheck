@@ -83,8 +83,6 @@
          ompthread = 0
 #endif
 
-         if (ompthread/=0) return
-
          ierr = no_ccpp_memory_usage(mpicomm, memory_usage)
          if (present(mpiroot) .and. mpirank==mpiroot) then
             write(0,'(a)') trim(memory_usage)
